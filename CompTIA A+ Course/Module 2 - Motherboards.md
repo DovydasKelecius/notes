@@ -166,3 +166,91 @@ ___
 ___
 # Form  Factors
 ___
+
+![[Pasted image 20241102080922.png]]
+
+___
+## ATX and Micro-ATX
+
+-  **ATX** - Advanced technology extended
+___
+## ITX
+
+- **Mini-ITX** - for HTPC (Home theatre with passive cooling)
+- Nano-ITX - Set top boxes, small computers in cars, other stuff
+- Pico-ITX - UMPC (Ultra mobile PC)
+
+___
+## BTX
+
+-  **BTX** - Balance Technology Extended
+	-  Uses a lot of energy and releases a lot of heat
+	-  For servers because of how powerful
+
+![[Pasted image 20241102081604.png]]
+
+___
+# BIOS
+___
+
+- **BIOS** - Basic Input Output System
+	- It is the FIRST  thing that runs when you boot your PC
+	- Identifies, tests, and initializes system components:
+		- RAM
+		- Storage (internal and external)
+		- Optical Drives
+		- CPU
+
+___
+## CMOS
+
+- **Complementary Metal-Oxide Semiconductor**
+	-   Stores  the contents of what the BIOS  finds
+		- Type and  Speed  of  CPU
+		- Drive Capacities
+		- Date/Time
+	- It is VOLATILE (Disappears)
+		- When the power is off,  it loses it's content
+		- Need a CMOS battery to maintain the information
+
+___
+## POST
+
+- **Power On Self Test**
+	- The First step in the boot Process
+	- Passes errors on to the BIOS and User
+	- Uses code numbers and Audio beeps
+		- POST codes differ from vendor to vendor
+
+___
+## "FLASHING"  The BIOS
+
+- Erasing and rewriting the BIOS firmware
+- **Firmware** = Persistent memory and code stored in it
+- Non-Volatile
+- **Flashing** = the new firmware is electronically "flashed" onto the circuit
+	- If you stop the process during flashing (lose power, etc.), your computer may not be bootable.
+
+___
+##  Configuring BIOS
+
+- Time and Date (Kept current by the battery, so if it dies, date/time will reset)
+- Boot device priority - Tells the BIOS to look in which order to try to boot up.
+- BIOS Password - Once set, it is maintained by the battery.
+
+___
+## Wake-On-Lan
+
+-  Allows the computer to be "woken up" through a network message
+- LAN  - Local Area Network
+
+___
+## Monitoring
+
+- BIOS Monitors several things,  including:
+	- Temperature
+	- Fan  Speeds
+	- Intrusion Detected (not viruses or hacking, just opening the computer physically for old PCS)
+	- Voltage
+	- Clock
+	- Bus Speed
