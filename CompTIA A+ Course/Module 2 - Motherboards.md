@@ -1,10 +1,10 @@
 # Chipset and Buses
-___
+---
 
 **Lane**:
 - Two serial wires that enable the sending and receiving of data simultaneously
 
-___
+---
 ## Motherboard communication chips
 
 Two main chips controlling communication on a PC motherboard
@@ -23,7 +23,7 @@ Two main chips controlling communication on a PC motherboard
 
 **Direct Media Interface** (**MDI**) connects each chip (also called **Internal Bus**).
 
-___
+---
 
 ## Buses
 
@@ -36,9 +36,9 @@ These two have different names but are basically the same, only other companies 
 - **Memory bus** is where are the **RAM** is plugged in.
 - **Expansion buses** are all the other buses that expand the capabilities of the motherboard.
 
-___
+---
 # Expansion Buses and Storage Technology
-___
+---
 ## Expansion Buses
 
 - **ISA**  - Industry Standard Architecture *OUTDATED*
@@ -59,7 +59,7 @@ ___
 
 **PCIe** is so fast because it has up to 16 Serial lanes with 1GB/s each.
 
-___
+---
 ## Storage Technology
 
 - **PATA / IDE** : (Integrated Drive Electronics -> **Parallel AT Attachment**)
@@ -73,7 +73,7 @@ ___
 	- Reads and Writes in Serial
 	- Takes less space
 
-___
+---
 # Input / Output Ports and Front Panel Connectors
 
 # Older Ports
@@ -90,7 +90,7 @@ ___
 	- 3 rows
 -  **Audio 1/8'' Cluster** - Mic, speaker, line in
 
-___
+---
 ## Newer Ports
 
 -  **USB**
@@ -105,16 +105,16 @@ ___
 -  **Firewire** (IEEE-1394) -  Cameras / Camcorders
 -  **SD / Multimedia Cards** - Mostly front-panel slots to insert your multimedia cards
 
-___
+---
 # Adapters And Converters
-___
+---
 ## Introduction to Adapters and Converters
 
 -  **Adapters** and **Converters** provide connection between two incompatible interfaces, making them interoperable.
 -  An **Adapter** connects two incompatible interfaces without changing the form of the medium passing through it.
 -  A Convertor not only connects two incompatible but also converts the form of medium passing through it.
 
-___
+---
 ## DVI to HDMI
 
 -  **DVI  (Digital Visual Interface)** to **HDMI (High-Definition Multimedia Interface)** bidirectional  adapters allow you to do the following:
@@ -123,38 +123,38 @@ ___
 	
 	- DVI doesn't support audio when connecting to an HDMI port, so the audio has to be transferred using a separate cable.
 
-___
+---
 ## USB A to USB B
 
 -  The USB A connector is the type-A connector, and the USB B connector is the type-B connector.
 - The type-A connector has an elongated rectangular cross-section, whereas the type-B has a square-like cross-section.
 - A USB cable may have a type-A and type-B connector on both ends allowing  for conversion between these connectors on the same cable.
 
-___
+---
 ## USB to Ethernet
 
 - This adapter is useful when your computer doesn't have a dedicated Ethernet port, and you want to physically connect it  to a network using the USB port.
 - For securities reasons
 
-___
+---
 ## DVI to VGA
 
 -  A DVI-to-VGA converter converts a digital DVI output from your computer to a standard analog VGA output for CRT monitors.
 -  DVI being digital, and VGA being analog, the adapter converts DVI output into analog VGA output.
 
-___
+---
 ## Thunderbolt to DVI
 
 -  Thunderbolt technology provides a port that carries both DisplayPort and PCI Express data.
 -  A Thunderbolt-to-DVI adapter allows you to connect an Apple Thunderbolt port to a DVI display device.
 -  This adapter is compatible with Mini DisplayPort.
 
-___
+---
 ## PS/2 to USB
 
 - The PS/2-to-USB adapters let you convert a PS2 keyboard and mouse port on your computer to a USB port.
 
-___
+---
 ## HDMI to VGA
 
 -  The HDMI-to-VGA converter is an active device that allows you to convert a digital HDMI signal to an analog VGA signal.
@@ -163,24 +163,24 @@ ___
 - The converter is an active device because active processing is required to convert HD content for  an analog display.
 - The converter is bus powered from the HDMI port so does not require an additional power source.
 
-___
+---
 # Form  Factors
-___
+---
 
 ![[Pasted image 20241102080922.png]]
 
-___
+---
 ## ATX and Micro-ATX
 
 -  **ATX** - Advanced technology extended
-___
+---
 ## ITX
 
 - **Mini-ITX** - for HTPC (Home theatre with passive cooling)
 - Nano-ITX - Set top boxes, small computers in cars, other stuff
 - Pico-ITX - UMPC (Ultra mobile PC)
 
-___
+---
 ## BTX
 
 -  **BTX** - Balance Technology Extended
@@ -189,9 +189,9 @@ ___
 
 ![[Pasted image 20241102081604.png]]
 
-___
+---
 # BIOS
-___
+---
 
 - **BIOS** - Basic Input Output System
 	- It is the FIRST  thing that runs when you boot your PC
@@ -201,7 +201,7 @@ ___
 		- Optical Drives
 		- CPU
 
-___
+---
 ## CMOS
 
 - **Complementary Metal-Oxide Semiconductor**
@@ -213,7 +213,7 @@ ___
 		- When the power is off,  it loses it's content
 		- Need a CMOS battery to maintain the information
 
-___
+---
 ## POST
 
 - **Power On Self Test**
@@ -222,7 +222,7 @@ ___
 	- Uses code numbers and Audio beeps
 		- POST codes differ from vendor to vendor
 
-___
+---
 ## "FLASHING"  The BIOS
 
 - Erasing and rewriting the BIOS firmware
@@ -231,20 +231,20 @@ ___
 - **Flashing** = the new firmware is electronically "flashed" onto the circuit
 	- If you stop the process during flashing (lose power, etc.), your computer may not be bootable.
 
-___
+---
 ##  Configuring BIOS
 
 - Time and Date (Kept current by the battery, so if it dies, date/time will reset)
 - Boot device priority - Tells the BIOS to look in which order to try to boot up.
 - BIOS Password - Once set, it is maintained by the battery.
 
-___
+---
 ## Wake-On-Lan
 
 -  Allows the computer to be "woken up" through a network message
 - LAN  - Local Area Network
 
-___
+---
 ## Monitoring
 
 - BIOS Monitors several things,  including:

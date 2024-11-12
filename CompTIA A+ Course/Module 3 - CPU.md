@@ -1,20 +1,20 @@
 # Technology and Characteristics
-___
+---
 ## CPU Overview
-___
+---
 - **Central Processing Unit**
 	- Most expensive and important component
 	- Executes instructions, making it the brain of the computer
 	- It MUST be compatible with the motherboard
 
-___
+---
 ## Clock rate
 
 - Identifies the frequency (speed) of the CPU
 - Measured in hertz (Hz), or cycles per  second
 - Most CPU's today use Giga-Hertz  (Ghz)
 
-___
+---
 ## Clock speed
 
 -  While Clock Rate measures the potential Speed, Clock speed indicates its actual speed just like a car.  
@@ -31,7 +31,7 @@ ___
 - Overclocking:
 	- Tell the motherboard to tell the CPU is actually faster than it is and it pushes it and overclocks it.
 
-___
+---
 ## Characteristics
 
 - Cache size / type:
@@ -40,7 +40,7 @@ ___
 	- L2 Accessed after L1 but faster than L3
 	- L3 - Largest capacity but the slowest (Talks to RAM Chips)
 
-___
+---
 ## Hyperthreading
 
 -  Allows a single CPU to accept and process two independent sets of instructions
@@ -50,7 +50,7 @@ ___
 	- The CPU physically contains two or more actual processing cores
 	- With hyperthreading, it would double the "cores"
 
-___
+---
 ## Architecture  32-bit vs 64-bit
 
 - Incorporating registers that are 64-bits wide, which allows the CPU to process higher data-types
@@ -58,21 +58,21 @@ ___
 - Software must support 64-bit as well
 - Also referred to as x86 or x64
 
-___
+---
 ## Virtualization
 
 - Allows a single physical system to run multiple virtual systems.
 - Centralizes hardware and improves resource usage.
 - The Future of computing.
 
-___
+---
 ## Integrated GPU
 
 - Graphics processing unit is specifically a process for graphics on the CPU chip itself
 
-___
+---
 # Socket Types
-___
+---
 # Socket Overview
 
 -  **ZIF Socket - Zero Insertion Force**
@@ -88,9 +88,9 @@ ___
 	- Square grid array on the underside of the circuit
 
 
-___
+---
 # Cooling
-___
+---
 ## Why?
 
 - Electricity causes heat (due to friction
