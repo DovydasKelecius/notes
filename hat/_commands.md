@@ -22,6 +22,79 @@
 #### Unix
 ---
 
+#### `sudo service apache2 start/stop`
+hosts a website (port 80) in /var/www/ directory
+![[Pasted image 20250209115312.png]]
+
+---
+
+##### `python3 -m http.server 80`
+hosts a website on current directory [Most of the times better]. m -  module
+![[Pasted image 20250209115517.png]]
+
+---
+#### `sudo systemctl start/disable [service]`
+![[Pasted image 20250209115807.png]]
+
+---
+%% For Kali %%
+#### `sudo apt update && apt upgrade`
+Updates system. [Root] needed. But looks like using git/[pimpmykali](https://github.com/Dewalt-arch/pimpmykali.git) is better overall.
+
+---
+#### `grep "[string]"`
+it grabs a line from given output. Example: cat ip.txt | grep "64 bytes"
+![[Pasted image 20250209123818.png]]
+
+---
+
+#### `cut`
+cuts out of text
+![[Pasted image 20250209124342.png]]
+%%
+-d delimiter [" "] I want to cut on a space
+-f field [4] I want to count up to 4 to grab that data
+%%
+
+---
+
+#### `tr`
+Translate, squeeze, and/or delete characters from standard input, writing to standard output.
+![[Pasted image 20250209124750.png]]
+%%
+-d delete [":"] I want to delete ":"
+%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
